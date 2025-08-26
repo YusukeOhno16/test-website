@@ -5,16 +5,16 @@ import { ImageWithFallback } from '../../components/figma/ImageWithFallback';
 export function HeroSection() {
   return (
     <section id="home" className="pt-16 min-h-screen flex items-center bg-gradient-to-br from-background to-muted/30">
-      <div className="container mx-auto px-4 py-20">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div className="figma-container mx-auto py-20">
+        <div className="grid lg:grid-cols-2 gap-20 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+              <h1 className="figma-hero-title font-bold">
                 未来を創る
                 <br />
                 <span className="text-primary">イノベーション</span>
               </h1>
-              <p className="text-xl text-muted-foreground max-w-lg">
+              <p className="figma-hero-subtitle text-muted-foreground max-w-lg">
                 私たちは最新の技術とクリエイティブなアイデアで、
                 お客様のビジネスを次のレベルへと導きます。
               </p>
