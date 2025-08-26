@@ -60,7 +60,7 @@ export function ServicesSection() {
           {services.map((service, index) => (
             <Card key={index} className="group hover:shadow-lg transition-all duration-300 border-0 shadow-sm">
               <CardHeader>
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                <div className="figma-icon-container">
                   <service.icon className="w-6 h-6 text-primary" />
                 </div>
                 <CardTitle className="text-lg">{service.title}</CardTitle>

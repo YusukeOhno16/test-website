@@ -52,6 +52,63 @@
     background-color: var(--primary);
   }
 
+  /* Figma準拠のアイコンコンテナ */
+  .figma-icon-container {
+    width: 56px;
+    height: 56px;
+    background-color: rgba(3, 2, 19, 0.08); /* primary color with opacity */
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  .figma-icon-container:hover {
+    background-color: rgba(3, 2, 19, 0.12);
+  }
+
+  /* Figma準拠のヘッダーロゴ */
+  .figma-header-logo {
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Figma準拠のナビゲーション */
+  .figma-nav-link {
+    color: var(--foreground);
+    opacity: 0.8;
+    font-weight: 500;
+    transition: opacity 0.2s ease;
+    text-decoration: none;
+  }
+
+  .figma-nav-link:hover {
+    opacity: 1;
+  }
+
+  /* Figma準拠のボタン */
+  .figma-button-primary {
+    background-color: var(--primary);
+    color: var(--primary-foreground);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    transition: opacity 0.2s ease;
+  }
+
+  .figma-button-primary:hover {
+    opacity: 0.9;
+  }
+
   @media (max-width: 768px) {
     .figma-container {
       padding: 0 24px;
