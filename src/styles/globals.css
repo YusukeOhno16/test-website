@@ -23,6 +23,49 @@
   }
 }
 
+/* Figmaデザインからの正確な値 */
+@layer components {
+  .figma-hero-title {
+    font-size: 64px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: var(--foreground);
+  }
+
+  .figma-hero-subtitle {
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--muted-foreground);
+  }
+
+  .figma-container {
+    max-width: 1440px;
+    padding: 0 80px;
+  }
+
+  .figma-primary-text {
+    color: var(--primary);
+  }
+
+  .figma-primary-bg {
+    background-color: var(--primary);
+  }
+
+  @media (max-width: 768px) {
+    .figma-container {
+      padding: 0 24px;
+    }
+    
+    .figma-hero-title {
+      font-size: 48px;
+    }
+
+    .figma-hero-subtitle {
+      font-size: 18px;
+    }
+  }
+}
+
 @custom-variant dark (&:is(.dark *));
 
 :root {
@@ -146,7 +189,7 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border;
   }
 
   body {

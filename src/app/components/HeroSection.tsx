@@ -12,7 +12,7 @@ export function HeroSection() {
               <h1 className="figma-hero-title font-bold">
                 未来を創る
                 <br />
-                <span className="text-primary">イノベーション</span>
+                <span className="figma-primary-text">イノベーション</span>
               </h1>
               <p className="figma-hero-subtitle text-muted-foreground max-w-lg">
                 私たちは最新の技術とクリエイティブなアイデアで、
