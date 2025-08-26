@@ -4,9 +4,9 @@ import { ImageWithFallback } from '../../components/figma/ImageWithFallback';
 
 export function HeroSection() {
   return (
-    <section id="home" className="pt-16 min-h-screen flex items-center bg-gradient-to-br from-background to-muted/30">
-      <div className="container py-20">
-        <div className="grid lg:grid-cols-2 gap-20 items-center">
+    <section id="home" className="figma-section-home flex items-center bg-gradient-to-br from-background to-muted/30">
+      <div className="container">
+        <div className="grid lg:grid-cols-2 figma-grid-gap items-center">
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="figma-hero-title font-bold">

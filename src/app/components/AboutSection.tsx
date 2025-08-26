@@ -21,9 +21,9 @@ export function AboutSection() {
   ];
 
   return (
-    <section id="about" className="py-20 bg-muted/30">
+    <section id="about" className="figma-section-about bg-muted/30">
       <div className="container">
-        <div className="max-w-3xl mx-auto text-center mb-16">
+        <div className="max-w-3xl mx-auto text-center figma-content-spacing">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             私たちについて
           </h2>
@@ -34,7 +34,7 @@ export function AboutSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
+        <div className="grid md:grid-cols-3 gap-8 figma-content-spacing">
           {values.map((value, index) => (
             <Card key={index} className="text-center border-0 shadow-sm">
               <CardContent className="pt-8 pb-6">
@@ -48,7 +48,7 @@ export function AboutSection() {
           ))}
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 figma-grid-gap items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
               実績と信頼

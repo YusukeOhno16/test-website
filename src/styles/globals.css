@@ -109,6 +109,31 @@
     opacity: 0.9;
   }
 
+  /* Figma準拠のセクションスペーシング */
+  .figma-section-home {
+    padding-top: 120px; /* Header height + margin */
+    padding-bottom: 120px;
+    min-height: 100vh;
+  }
+
+  .figma-section-about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .figma-section-content {
+    margin-top: 80px;
+    margin-bottom: 60px;
+  }
+
+  .figma-grid-gap {
+    gap: 80px; /* Figma準拠のグリッド間隔 */
+  }
+
+  .figma-content-spacing {
+    margin-bottom: 64px;
+  }
+
   @media (max-width: 768px) {
     .figma-container {
       padding: 0 24px;
@@ -120,6 +145,24 @@
 
     .figma-hero-subtitle {
       font-size: 18px;
+    }
+
+    .figma-section-home {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+
+    .figma-section-about {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+
+    .figma-grid-gap {
+      gap: 40px;
+    }
+
+    .figma-content-spacing {
+      margin-bottom: 40px;
     }
   }
 }
